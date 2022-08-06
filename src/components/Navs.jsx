@@ -9,6 +9,7 @@ const LINKS = [
 
 const Navs = () => {
   const location = useLocation();
+  // eslint-disable-next-line no-console
   console.log(location);
   return (
     <div>
